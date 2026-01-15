@@ -1,15 +1,24 @@
+import os
 from tabulate import tabulate
 
 def solve_lru(file_path, capacity=3):
-    print(f"\n[INFO] Menjalankan Memory Management (LRU) - Frame: {capacity}")
+    print(f"\n[INFO] Menjalankan Memory Management (LRU)...")
     
+    if not os.path.exists(file_path):
+        print(f"Error: File '{file_path}' tidak ditemukan!")
+        return
+
     try:
         with open(file_path, 'r') as f:
             content = f.read().strip()
-            # Handle pemisah spasi
-            pages = content.split()
-    except FileNotFoundError:
-        print("Error: File dataset tidak ditemukan di folder data/.")
+            # Ganti koma jadi spasi dulu, baru split (jaga-jaga formatnya beda)
+            pages = content.replace(',', ' ').split()
+    except Exception as e:
+        print(f"Error membaca file: {e}")
+        return
+
+    if not pages:
+        print("Error: File kosong!")
         return
 
     frames = []
@@ -24,12 +33,12 @@ def solve_lru(file_path, capacity=3):
             if len(frames) < capacity:
                 frames.append(page)
             else:
-                frames.pop(0) # Hapus elemen pertama (LRU)
+                frames.pop(0) 
                 frames.append(page)
         else:
             status = "HIT"
             frames.remove(page)
-            frames.append(page) # Pindah ke paling baru
+            frames.append(page) 
         
         history.append([page, str(frames), status])
 
