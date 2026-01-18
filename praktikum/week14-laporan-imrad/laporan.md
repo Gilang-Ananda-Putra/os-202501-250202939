@@ -66,6 +66,7 @@ Berdasarkan pembacaan data awal dari file konfigurasi JSON, sistem berhasil meng
 Setelah dilakukan perhitungan, algoritma menjalankan simulasi eksekusi proses. Berikut adalah tangkapan layar hasil keluaran program:
 
 **Gambar 1. Output Eksekusi Program Algoritma Banker**
+
 ![Output Terminal](screenshots/hasil_eksekusi.png)
 
 ### 3. Temuan Urutan Aman (Safe Sequence)
