@@ -106,9 +106,9 @@ Untuk pengembangan selanjutnya, disarankan untuk:
 ---
 
 ## DAFTAR PUSTAKA
-1.  Dijkstra, E. W. (1965). *Cooperating Sequential Processes*. Technological University, Eindhoven, The Netherlands.
-2.  Stallings, W. (2018). *Operating Systems: Internals and Design Principles* (9th Edition). Pearson Education.
-3.  Nutt, G. J. (2004). *Operating Systems: A Modern Perspective* (3rd Edition). Addison Wesley.
+1.  Dijkstra, E. W. (1965). *Cooperating Sequential Processes*. Technological University, Eindhoven, The Netherlands. (Sumber Asli Algoritma)
+2.  Silberschatz, A., Galvin, P. B., & Gagne, G. (2018). *Operating System Concepts* (10th Edition). Wiley. (Menggantikan Nutt - Standar Global)
+3.  Stallings, W. (2018). *Operating Systems: Internals and Design Principles* (9th Edition). Pearson Education. (Buku Teks Modern)
 
 ---
 
