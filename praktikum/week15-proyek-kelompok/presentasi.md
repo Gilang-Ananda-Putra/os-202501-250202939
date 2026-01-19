@@ -8,10 +8,10 @@
 
 ## Nama Anggota Kelompok
 
-1. **[Nama Anggota 1]** - [250202939] (Project Lead)
-2. **[Nama Anggota 2]** - [525020299] (Dev CPU)
-3. **[Nama Anggota 3]** - [250202937] (Dev Memory)
-4. **[Nama Anggota 4]** - [250202971] (DevOps & Docs)
+1. **[Gilang Ananda Putra]** - [250202939] (Project Lead)
+2. **[Pasya Awan Rizky Saputro]** - [525020259] (Dev CPU)
+3. **[Faizal Muzaki]** - [250202937] (Dev Memory)
+4. **[Yusuf Anwar]** - [250202971] (DevOps & Docs)
 
 ---
 
@@ -177,4 +177,5 @@ Proyek dikerjakan secara kolaboratif menggunakan Git Branching:
 ---
 
 **TERIMA KASIH**
+
 *Ada Pertanyaan?*
