@@ -1,8 +1,10 @@
 # Laporan Praktikum Minggu 14: Implementasi Algoritma Banker untuk Deadlock Avoidance dengan Dataset JSON
 
 **Topik:** Deadlock Detection & Avoidance
-**Nama:** [Isi Nama Lengkap Kamu Disini]
-**NIM:** [Isi NIM Kamu Disini]
+
+- **Nama**  : Gilang Ananda Putra
+- **NIM**   : 250202939 
+- **Kelas** : 1IKRB
 
 ---
 
