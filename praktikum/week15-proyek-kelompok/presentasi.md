@@ -131,18 +131,9 @@ Proyek dikerjakan secara kolaboratif menggunakan Git Branching:
 | **Faizal Muzaki** | - Developer Modul Memory | Mengimplementasikan logika LRU di `memory.py`<br> - Menangani parsing input file TXT<br> - Logika penggantian halaman (*replacement*). |
 | **Yusuf Anwar** | Docs & QA | - Melakukan pengujian (*debugging* path file)<br> - Mengambil *screenshot*<br> - Menyusun laporan. |
 
+![Struktur Folder VS Code](screenshots/peran_1.png)
+![Struktur Folder VS Code](screenshots/peran_2.png)
 ---
-
-## 7. TANTANGAN & SOLUSI
-
-1. **Masalah Path File:**
-* *Issue:* Python gagal menemukan file data saat dijalankan dari folder luar.
-* *Solusi:* Menggunakan `os.path.abspath(__file__)` untuk mendeteksi lokasi skrip secara otomatis.
-
-
-2. **Environment:**
-* *Issue:* Library `tabulate` tidak ada di komputer dosen/teman.
-* *Solusi:* Menggunakan Docker untuk membungkus semua dependensi jadi satu paket.
 
 
 

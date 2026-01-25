@@ -10,7 +10,7 @@ def main_menu():
     while True:
         clear_screen()
         print("==========================================")
-        print("   OS SIMULATION TOOL - KELOMPOK KITA     ")
+        print("     OS SIMULATION TOOL - KELOMPOK 4      ")
         print("==========================================")
         print("1. CPU Scheduling (FCFS)")
         print("2. Memory Management (LRU)")
